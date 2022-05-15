@@ -4,25 +4,26 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
 }
-
 .container{
-    display: flex;
+    width: 100%;
+    overflow: hidden;
 }
 .container1{
-    width: 900px;
+    width: 600px;
     background-image: url(login.png);
+    float: left;
 }
 .leftlogo img{
     width: 40%;
     height: 40%;
     justify-content: center;
     display: block;
-    margin:30%;
+    margin:20%;
 }
 .container2{
     background-color: black;
-    width: 650px;
     padding: 36px;
+    float: right;
 }
 .rightlogo img{
     height: 40px;
