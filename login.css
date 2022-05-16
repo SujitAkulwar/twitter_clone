@@ -210,6 +210,6 @@ footer{
 .copy{
     margin-left: 45%;
 }
-.leftspace:hover::after{
-    background-color: rgb(152, 0, 0);
+.button:hover::after{
+    background-color: rgb(255, 133, 133);
 }
