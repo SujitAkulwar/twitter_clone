@@ -53,22 +53,38 @@ html,body{
     display: flex;
     overflow: hidden;
     align-items: center;
-    background-color: white;
     color: black !important;
+    align-items: center;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: relative;
+    white-space: nowrap;
+    font-size: 14px;
+    padding:2px;
+    -webkit-text-size-adjust: 100%;
+    margin-bottom:10px;
+}
+.leftspace{
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 40px;
+    width: 400px;
 }
 .googleprofil{
-    height: 20px;
-    width: 20px;
-    border-radius: 50px;
+    height: 30px;
+    width: 30px;
     align-items: center;
-    background-color: white;
-    padding: 5px;
-    white-space: nowrap;
-    font-size: 14px !important;
-    max-width: 500px;
+    padding:10px;
+    border-radius:100% !important;
 }
 .name{
-    padding: 5px;
+    color: black;
+    width: 100px;
+    padding-left: 10px;
 }
 .name1{
     color: black;
@@ -78,7 +94,37 @@ html,body{
     color: black;
 }
 .googleglogo{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.rightspace{
+    width:20px;
+}
+.apple{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    color: black !important;
+    align-items: center;
+    position: relative;
+    white-space: nowrap;
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+.applelogo{
     height: 20px;
     width: 20px;
-    padding: 5px;
+    align-items: center;
+    border-radius: 50px;
+}
+.appletext{
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    padding: 12px;
+    padding-left: 36px;
 }
