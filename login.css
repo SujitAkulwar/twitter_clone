@@ -149,7 +149,7 @@ html,body{
 .leftspace2{
     border-radius: 40px;
     display: flex;
-    height: 40px;
+    height: 20px;
     width: 400px;
 }
 .phone{
@@ -164,8 +164,22 @@ html,body{
     background-color: rgb(39, 166, 234);
 }
 .phonetext{
-    padding-left:20%;
+    padding-left:25%;
     padding-right: 20%;
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.terms{
+    font-size:  15px;
+    margin:0px 0px 20x;
+    padding-bottom: 10px;
+}
+.hr{
+    height: 10px;
+}
+.olduser{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
