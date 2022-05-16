@@ -65,23 +65,23 @@ html,body{
     margin-bottom:10px;
 }
 .leftspace{
-    border-radius: 40px;
+    border-radius: 50px;
     background-color: rgb(255, 255, 255);
     display: flex;
     height: 40px;
     width: 300px;
 }
 .googleprofil{
-    height: 30px;
-    width: 30px;
+    height:25px;
+    width: 25px;
     align-items: center;
-    padding:10px;
+    padding:8px;
     border-radius:100% !important;
 }
 .name{
     color: black;
     width: 100px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .name1{
     color: black;
@@ -210,6 +210,7 @@ footer{
 .copy{
     margin-left: 45%;
 }
-.button:hover::after{
-    background-color: rgb(255, 133, 133);
+.button{
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
 }
