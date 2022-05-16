@@ -42,9 +42,6 @@ html,body{
     font-weight: bolder;
     padding: 48px 0;
 }
-.footer{
-    background-color: black;
-}
 .text2{
     font-size: 31px;
     margin: 0px 0px 32px;
@@ -205,10 +202,14 @@ html,body{
 }
 footer{
     align-items: center;
+    background-color: black;
 }
 .sub{
     margin: 5px;
 }
 .copy{
     margin-left: 45%;
+}
+.leftspace:hover::after{
+    background-color: rgb(152, 0, 0);
 }
