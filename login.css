@@ -1,17 +1,24 @@
 *{
     margin: 0px;
     padding: 0px;
+    width: 100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: aliceblue;
+}
+html,body{
+    overflow-x: hidden;
+    width: 100%;
 }
 .container{
     width: 100%;
     overflow: hidden;
+    display: flex;
 }
 .container1{
-    width: 600px;
+    width: 270vh;
     background-image: url(login.png);
     float: left;
+    image-rendering: auto;
 }
 .leftlogo img{
     width: 40%;
@@ -30,8 +37,48 @@
     width: 40px;
     padding-bottom: 12px;
 }
-#text1{
-    font-size: 60px;
+.text1{
+    font-size: 64px;
     font-weight: bolder;
     padding: 48px 0;
+}
+.footer{
+    background-color: black;
+}
+.text2{
+    font-size: 31px;
+    margin: 0px 0px 32px;
+}
+.google{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    background-color: white;
+    color: black !important;
+}
+.googleprofil{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    white-space: nowrap;
+    font-size: 14px !important;
+    max-width: 500px;
+}
+.name{
+    padding: 5px;
+}
+.name1{
+    color: black;
+    font-weight: bold;
+}
+.name2{
+    color: black;
+}
+.googleglogo{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
 }
