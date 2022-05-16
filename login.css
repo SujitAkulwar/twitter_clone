@@ -72,7 +72,7 @@ html,body{
     background-color: rgb(255, 255, 255);
     display: flex;
     height: 40px;
-    width: 400px;
+    width: 300px;
 }
 .googleprofil{
     height: 30px;
@@ -107,7 +107,6 @@ html,body{
     overflow: hidden;
     align-items: center;
     color: black !important;
-    align-items: center;
     position: relative;
     white-space: nowrap;
     font-size: 16px;
@@ -120,16 +119,15 @@ html,body{
 .applelogo{
     height: 30px;
     width: 30px;
-    margin: 12px;
-    margin-right: 7px;
+    margin: 5px;
     align-items: center;
-    padding-left: 20%;
+    padding-left:50px;
 }
 .appletext{
     color: black;
     font-weight: bold;
     align-items: center;
-    padding: 12px;
+    padding: 6px;
 }
 .textor{
     display: flex;
@@ -150,22 +148,21 @@ html,body{
     border-radius: 40px;
     display: flex;
     height: 20px;
-    width: 400px;
+    width: 300px;
 }
 .phone{
     border-radius: 50px;
 }
 .leftspace3{
-    border-radius: 40px;
+    border-radius: 50px;
     display: flex;
     height: 40px;
-    width: 400px;
+    width: 300px;
     color: white;
     background-color: rgb(39, 166, 234);
 }
 .phonetext{
-    padding-left:25%;
-    padding-right: 20%;
+    padding-left:50px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -182,4 +179,36 @@ html,body{
     margin-bottom: 20px;
     margin-top: 40px;
 }
-
+.signin{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    white-space: nowrap;
+    -webkit-text-size-adjust: 100%;
+    padding-bottom: 50px;
+}
+.signintext{
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 40px;
+    width: 175px;
+    color: aqua;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    font-size: 20px;
+    padding-left: 120px;
+    margin-top: 5px;
+    padding-top:5px ;
+}
+footer{
+    align-items: center;
+}
+.sub{
+    margin: 5px;
+}
+.copy{
+    margin-left: 45%;
+}
