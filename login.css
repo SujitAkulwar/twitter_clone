@@ -128,3 +128,18 @@ html,body{
     padding: 12px;
     padding-left: 36px;
 }
+.textor{
+    display: flex;
+    border: 0 solid black;
+    box-sizing: border-box;
+}
+.or{
+    color: white;
+    position: relative;
+    white-space: nowrap;
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+    padding: 2px;
+    width: 50px;
+    align-items: center;
+}
