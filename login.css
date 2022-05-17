@@ -203,6 +203,7 @@ html,body{
 footer{
     align-items: center;
     background-color: black;
+    color: black;
 }
 .sub{
     margin: 5px;
@@ -216,4 +217,7 @@ footer{
 }
 .a{
     color: black;
+}
+.a1{
+    color: rgb(0, 127, 166);
 }
