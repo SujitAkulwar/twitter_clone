@@ -65,6 +65,7 @@
     display: flex;
     height: 100px;
     float:right;
+    padding-top: 100px;
 }
 .userid{
     border-radius: 50px;
@@ -75,17 +76,9 @@
 }
 .userimg img{
     width: 20px;
-    padding: 2px;
 }
 .username{
-    display: flex;
     padding-left: 20px; 
-}
-.username1{
-    padding: 1px;
-}
-.useremail{
-    padding: 1px;
 }
 .doticon{
     padding-left: 10px;
@@ -95,6 +88,8 @@
 .doticon img{
     width: 20px;
     padding: 2px;
+    border-radius: 50px;
+    border-width: 1px;
 }
 
 
