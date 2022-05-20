@@ -96,6 +96,43 @@
     border-width: 1px;
     margin: auto; 
 }
+.container2{
+    border: 1px;
+    border-style: solid;
+}
+.tweet{
+    height: 50px;
+    width: 600px;
+    border: 1px;
+    border-style: solid;
+}
+.newtweet{
+    width: 600px;
+    border: 1px;
+    border-style: solid;
+    margin: auto;
+}
+.userid1{
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+.userimg1 img{
+    width: 30px;
+    margin: auto;
+    padding: 20px;
+}
+.username1{
+    margin: 0;
+    padding-right: 290px;
+}
+.doticon1 img{
+    width: 30px;
+    margin:auto;
+    padding: 20px;
+}
+
+
 
 
 
