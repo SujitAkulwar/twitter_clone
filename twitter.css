@@ -1,8 +1,42 @@
 *{
     background-color: black;
-    padding-left: 30px;
-    padding-right: 30px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 250px;
+    height: 60px;
 }
 .twitterlogo{
-    padding: 0px;
+    padding: 2px 0px;
 }
+.twitterlogo img{
+    width: 30px;
+    padding:10px;
+}
+.id{
+    padding: 5px 0px;
+    display: flex;
+}
+.idlogo{
+    padding: 5px;
+}
+.idlogo img{
+    width: 30px;
+}
+.idname{
+    padding-left: 10px;
+    align-content:center ;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
